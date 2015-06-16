@@ -1,0 +1,6 @@
+# flowmeter
+input analog signal
+map input to flow rate, gpm
+input /= 60 //convert to gal/s
+TGal += input
+wait 1s
